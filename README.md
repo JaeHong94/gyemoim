@@ -12,15 +12,6 @@
 * <b>WBS</b> | <a href="https://docs.google.com/spreadsheets/d/1UPWAqjXY9MwH_GNtTCQeLkB2hhBgnJgA/edit#gid=1856763595">WBS 바로가기</a>
 * <b>구현 영상</b> | <a href="https://www.youtube.com/watch?v=i7u8KaYVpgs">https://www.youtube.com/watch?v=i7u8KaYVpgs</a>
 
-
-## 개발팀 소개
-|권오수|민재홍|이현지|김찬희|김지연|이유진|길현지|
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/c5c4b2cf-13b5-49d8-84ae-a1e9fc97291a" width="80px" />|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/a55c879b-fdbe-4395-9425-3bf43fee3895" width="80px" />|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/e0108906-f745-43e6-9ad2-fab1eb15cabc" width="80px" />|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/c0266559-1d6e-452b-9717-c113ebedf6ad" width="80px" />|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/60f0c32e-582c-44ee-8fcb-f480761533ae" width="80px" />|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/4870b183-08b5-47fe-a579-562379dfad6e" width="80px" />|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/75d1bc80-d694-49ec-922a-99ce4d4647c4" width="80px" />|
-|<a href="https://github.com/kwonohsoo">@kwonohsoo</a>|<a href="https://github.com/JaeHong94">@JaeHong94</a>|<a href="https://github.com/HYUNJI830">@HYUNJI830</a>|<a href="https://github.com/chaaanhee">@chaaanhee</a>|<a href="https://github.com/kmm05">@kmm05</a>|<a href="https://github.com/e-u-gene">@e-u-gene</a>|<a href="https://github.com/khyunji99">@khyunji99</a>|
-|회원가입&JWT|마이페이지|계모임 생성|계모임 운영|계모임 선택|계모임 추천 및 페이징|게시판 구현|
-
-
 ## 기술활용
 ### Front-End
 <img src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&logo=react&logoColor=white"> <img src="https://img.shields.io/badge/axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white">
@@ -29,7 +20,7 @@
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white"> <img src="https://img.shields.io/badge/springsecurity-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white"> <img src="https://img.shields.io/badge/MVC-6DB33F?style=for-the-badge&logo=MVC&logoColor=white"> <img src="https://img.shields.io/badge/MyBatis-F80000?style=for-the-badge&logo=MyBatis&logoColor=white">  <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
 
 ### DataBase
-<img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">  <img src="https://img.shields.io/badge/redis-F80000?style=for-the-badge&logo=redis&logoColor=white">
+<img src="https://img.shields.io/badge/oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white">
 
 ### Tool
 <img src="https://img.shields.io/badge/intellijidea-000000?style=for-the-badge&logo=intellijidea&logoColor=white">
@@ -74,24 +65,23 @@ $ npm start
 
 ## 주요기능
 * 회원 기능
-  * 회원가입
-  * Spring Security, JWT
-  * 로그인/로그아웃
   * 이메일 찾기, 임시 비밀번호 전송, 비밀번호 변경
   * 마이페이지
+  * 계모임 계좌 입출금 및 거래 내역
+<img width="528" alt="image" src="https://github.com/JaeHong94/gyemoim/assets/116752166/8ec737fa-1411-49a1-85e3-249dceabd30e">
+<img width="531" alt="image" src="https://github.com/JaeHong94/gyemoim/assets/116752166/3b1e1064-80cc-4cc6-90bf-95b0421103f6">
+
+* 계모임
+  * 계모임 대기중/참여중/완료 목록
+  * 계모임 추천 목록
+<img width="532" alt="image" src="https://github.com/JaeHong94/gyemoim/assets/116752166/28de7c84-c179-4559-9370-5f5fe18f076c">
+
     
 * 게시판 기능
   * 게시글 조회
   * 게시글 검색
-  * 게시글 작성 및 첨부파일 업로드
+  * 게시글 작성
   * 게시글 수정 및 삭제
-  * 댓글 작성, 수정 및 삭제
- 
-* 솔루션 기능
-  * 계모임 상품 생성
-  * 계모임 추천 상품 조회
-  * 계모임 상품 선택
-  * 계모임 상품 운영
   
 * 운영자 기능
   * 고객 운영 시각화
@@ -99,6 +89,7 @@ $ npm start
   * 회원 정보 조회
   * 스테이지 정보 조회
   * 댓글 정보 조회
+<img width="530" alt="image" src="https://github.com/JaeHong94/gyemoim/assets/116752166/e0d760c4-4d54-451f-9b33-14f99e3968cb">
 
 ## ERD 설계
 |전체|회원관리|
@@ -120,19 +111,10 @@ $ npm start
 |---|---|
 |<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/8f573e44-aaa6-4bc8-a692-ed45e691f63c" width="500px">|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/1f4156b5-d100-4c93-99d1-57cc3a12d1a2" width="500px">|
 
-### 계모임
-|계모임 생성|계모임 선택|
+### 계모임 추천 및 게시판
+|계모임 추천 및 페이징|게시판|
 |---|---|
-|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/ee0057f3-8f08-407d-a0a4-d05bfd6b9955" width="500px">|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/8a6d7c53-1130-4dca-a552-5ee76db7e56c" width="500px">|
-
-|계모임 운영|계모임 추천 및 페이징|
-|---|---|
-|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/8a1a5875-fb2a-45d0-859c-cf00aecb672d" width="500px">|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/79eaf936-efa9-4860-8c60-2341ffbf44a9" width="500px">|
-
-### 게시판
-|게시판|댓글|
-|---|---|
-|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277248/f0e2b93d-3389-4c9a-b966-f480f7a64a1f" width="500px">|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277248/8fa3b2ac-a4c8-4d5a-abc6-9e448fee18a4" width="500px">|
+|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277304/79eaf936-efa9-4860-8c60-2341ffbf44a9" width="500px">|<img src="https://github.com/kh-teamProject/gyemoim/assets/117277248/f0e2b93d-3389-4c9a-b966-f480f7a64a1f" width="500px" height="500px">|
 
 ### 시각화
 |고객 운영 시각화|계모임 운영 시각화|
